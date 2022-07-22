@@ -159,6 +159,7 @@ body{
 
 .operations{
     padding: 78px 136px;
+    margin-bottom: 320px;
 }
 
 
@@ -191,8 +192,30 @@ body{
     border: none;
     padding: 10px;
     width: 350px;
-    background: url(../img/button-icon-1.svg) left 25px center no-repeat, #ABCEFB;
+    background: url(../img/button-icon-1.svg) left 25px center no-repeat, #EAF3FF;
 }
+
+
+.sec-btn{
+    background: url(../img/button-icon-2.svg) left 25px center no-repeat, #FFF8E4;
+}
+
+.third-btn{
+    background: url(../img/button-icon-3.svg) left 25px center no-repeat, #FFF3EF;
+}
+.fourth-btn{
+    background: url(../img/button-icon-4.svg) left 25px center no-repeat, #E2FBF2;
+}
+.fifth-btn{
+    background: url(../img/button-icon-5.svg) left 25px center no-repeat, #F1F1FC;
+}
+.sixs-btn{
+    background: url(../img/button-icon-6.svg) left 25px center no-repeat, #F3E5F5;
+}
+.sevens-btn{
+    background: url(../img/button-icon-7.svg) left 25px center no-repeat, #FFE5ED;
+}
+
 
 
 
@@ -238,4 +261,58 @@ body{
 
 .operation__content__p{
     margin-bottom: 50px;
+}
+
+
+
+
+
+.central-peoples{
+    max-width: 1168px;
+    padding: 48px;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 216px;
+}
+
+
+.central-peoples__first-p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+    color: #657085;
+    width: 100%;    
+}
+
+
+.central-peoples__first-h2{
+    width: 100%;    
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0.8px;
+    color: #1C202B;
+}
+
+
+.cardzone{
+    display: flex;  
+    justify-content: space-evenly;
+    gap: 48px;
+}
+
+.card{
+    max-width: 325px;
+    width: 27%;
+}
+
+.card__p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #1C202B;
 }
