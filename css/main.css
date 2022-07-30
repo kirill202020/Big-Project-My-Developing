@@ -655,3 +655,125 @@ input{
     padding: 13px;
 }
 
+
+.up-footer{
+    gap: 48px;
+    margin-top: 180px;
+    display: flex;
+    padding: 0 48px 48px 48px;
+    border-bottom: 1px solid #EBEEF2;
+    margin-bottom: 48px;
+}
+
+.left-up{
+    max-width: 340px;
+    width: 100%;
+}
+
+
+.right-up__h4__gray{
+    margin-bottom: 26px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: #657085;
+}
+
+
+.ul-group__ul>li{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1C202B;
+    margin-bottom: 15px;
+}
+
+.right-up{
+    list-style-type: none;
+    max-width: 683px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.left-up__p{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    color: #1C202B;
+    margin-bottom: 47px;
+}
+
+.footer_logo{
+    margin-bottom: 23px;
+}
+
+
+.left__up__a{
+    margin-right: 16px;
+}
+
+
+.ul-group__ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.first__ul__group__items{
+    margin-left: 35px;
+
+}
+
+.first__ul__group__items__1::before{
+    content: url(../img/button-icon-1.svg);
+    position: absolute;
+    margin-left: -37px;
+    margin-top: -6px;
+    
+}
+.first__ul__group__items__2::before{
+    content: url(../img/button-icon-2.svg);
+    position: absolute;
+    margin-left: -37px;
+    margin-top: -6px;
+    
+}
+.first__ul__group__items__3::before{
+    content: url(../img/button-icon-3.svg);
+    position: absolute;
+    margin-left: -37px;
+    margin-top: -6px;
+}
+.first__ul__group__items__4::before{
+    content: url(../img/button-icon-4.svg);
+    position: absolute;
+    margin-left: -37px;
+    margin-top: -6px;
+}
+.first__ul__group__items__5::before{
+    content: url(../img/button-icon-5.svg);
+    position: absolute;
+    margin-left: -37px;
+    margin-top: -6px;
+}
+.first__ul__group__items__6::before{
+    content: url(../img/button-icon-6.svg);
+    position: absolute;
+    margin-left: -37px;
+    margin-top: -6px;
+}
+.first__ul__group__items__7::before{
+    content: url(../img/button-icon-7.svg);
+    position: absolute;
+    margin-left: -37px;
+    margin-top: -6px;
+}
+
+
+
+
+
