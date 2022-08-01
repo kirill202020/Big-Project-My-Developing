@@ -699,6 +699,7 @@ input{
 }
 
 .left-up__p{
+    margin-top: 23px;
     font-weight: 400;
     font-size: 22px;
     line-height: 27px;
@@ -706,9 +707,6 @@ input{
     margin-bottom: 47px;
 }
 
-.footer_logo{
-    margin-bottom: 23px;
-}
 
 
 .left__up__a{
@@ -771,6 +769,95 @@ input{
     position: absolute;
     margin-left: -37px;
     margin-top: -6px;
+}
+
+
+.down__footer{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 160px;
+    padding: 48px;
+}
+
+
+
+
+
+.country__h4{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: #657085;
+    margin-bottom: 31px;
+    vertical-align: center;
+    display: flex;
+}
+
+
+.country__h4__first::before{
+    content: url(../img/country-pic-1.svg);
+    margin-right: 14px;
+}
+
+
+.choosing-a-country{
+    display: flex;
+    gap: 10px;
+}
+
+
+
+.icon__flag{
+    width: 14px;
+}
+
+
+.country__name{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: #1C202B;
+}
+
+
+.country__name::after{
+    content: url(../img/strelka.svg);
+    margin-left: 12px;
+}
+
+
+.contacts__ul{
+    list-style-type: none;
+}
+
+.contacts__ul__item{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1C202B;
+}
+
+
+.contacts__ul__li__item{
+    margin-bottom: 15px;
+}
+
+
+.socials__ul{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+
+.socials__ul>li{
+    list-style-type: none;
+    
 }
 
 
